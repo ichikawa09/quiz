@@ -1,13 +1,28 @@
 <!DOCTYPE html>
-<html lang="ja">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>ワンピース4択クイズ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ワンピースクイズ</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <p>4択クイズ</p>
+    <h1>ワンピース3択クイズ</h1>
+    <h2 id="question">ここに問題表示</h2>
+
+    <ul>
+        <li id="ans1">①</li>
+        <li id="ans2">②</li>
+        <li id="ans3">③</li>
+    </ul>
+
+    <div class="botan">
+        <button type="button" id="answer1" onclick="answerCheck(1)">①</button>
+        <button type="button" id="answer2" onclick="answerCheck(2)">②</button>
+        <button type="button" id="answer3" onclick="answerCheck(3)">③</button>
+    </div>
+
+    
+    <script src="script.js"></script>
 </body>
-<script src = "./script.js"></script>
 </html>
